@@ -21,7 +21,7 @@ function Header() {
         </a>
         <a>
         <img src="images/original-icon.svg"/>
-        <span>Originals</span>
+        <span>ORIGINALS</span>
         </a>
         <a>
         <img src="images/movie-icon.svg"/>
@@ -42,7 +42,7 @@ export default Header
 
 const Nav = styled.nav`
 overflow-x:hidden;
-height: 70px;
+min-height: 60px;
 background-color:#090b13;
 display: flex;
 align-items:center;
@@ -55,9 +55,11 @@ height: 30px;
 `;
 const NavMenu = styled.div `
 display:flex;
-align-items:center;
 flex:1;
+
+align-items:center;
 margin-left: 25px;
+
 
 a{
   display:flex;

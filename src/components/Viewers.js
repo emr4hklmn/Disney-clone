@@ -29,7 +29,7 @@ const Container= styled.div`
 margin-top:30px;
 display:grid;
 grid-template-columns: repeat(5,minmax(0,1fr));
-grid-gap:25px;
+grid-gap:20px;
 `
 const Wrap = styled.div`
 border-radius: 5px;
